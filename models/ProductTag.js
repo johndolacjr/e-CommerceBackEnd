@@ -14,11 +14,11 @@ ProductTag.init(
     },
     product_id: {
       type:DataTypes.NUMBER,
-      references: {model:"Product", key:id}
+      references: {model:"Product", key: 'id'}
     },  
     tag_id: {
       type:DataTypes.NUMBER,
-      references: {model:"Tag", key:id}
+      references: {model:"Tag", key: 'id'}
     },
   },
 
